@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Coins
+  - DeathObstacle/Spike
+  - DeathObstacle/Water
   layers:
   - Default
   - TransparentFX
