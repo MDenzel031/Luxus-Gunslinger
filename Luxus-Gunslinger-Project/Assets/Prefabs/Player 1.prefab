@@ -415,8 +415,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 200
-  coinPoints: 5
-  currentHealth: 0
   healthbar: {fileID: 0}
   playerAnimation: {fileID: 6163103914658034462}
 --- !u!1 &6163103915246312640

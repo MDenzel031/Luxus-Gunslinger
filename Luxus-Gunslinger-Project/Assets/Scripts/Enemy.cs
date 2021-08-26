@@ -18,7 +18,12 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        PlayerHealth player = collision.GetComponent<PlayerHealth>();
+        
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        PlayerHealth player = collision.collider.GetComponent<PlayerHealth>();
 
         if (player != null)
         {
@@ -26,7 +31,6 @@ public class Enemy : MonoBehaviour
 
         }
     }
-
 
 
     void Start()

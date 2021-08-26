@@ -34,4 +34,12 @@ public class PlayerHealth : MonoBehaviour
     }
 
 
+    public void recoverHealth(int health)
+    {
+        FindObjectOfType<AudioManager>().playSound("bonusHeal");
+        currentHealth += health;
+        healthbar.setHealth(currentHealth);
+    }
+
+
 }

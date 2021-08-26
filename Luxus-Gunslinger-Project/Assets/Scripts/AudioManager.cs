@@ -89,4 +89,21 @@ public class AudioManager : MonoBehaviour
             return null;
         }
     }
+
+
+    public Sound getSound(string name)
+    {
+        Sound result = null;
+
+        foreach(Sound s in sound)
+        {
+            if (s.name.Equals(name))
+            {
+                result = s;
+            }
+        }
+
+        if (result != null) return result;
+        else return null;
+    }
 }
