@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
 
     public void gameOver()
     {
-
+        restartLevel();
     }
 
     public void restartLevel()
@@ -54,7 +54,9 @@ public class GameManager : MonoBehaviour
 
     public void addAmountToCoins(int amount)
     {
-
+        int currentCoins = int.Parse(coinText.text) + amount;
+        FindObjectOfType<AudioManager>().playSound("coinSound");
+        coinText.text = currentCoins.ToString();
     }
 
 
