@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9118967261247697947}
   - component: {fileID: 438063981164727103}
+  - component: {fileID: 1223223114409288076}
   m_Layer: 0
   m_Name: Revolver
   m_TagString: Untagged
@@ -82,6 +83,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1223223114409288076
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084470184306589313}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7f8707786b6d6d94a9f3f9e21369519f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5474582355371295319
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,6 +422,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 705913226475335926}
   bulletPrefab: {fileID: 3931145415447566676, guid: 6af6c04e47dada64da70d45ea69aedac, type: 3}
+  weaponAnimation: {fileID: 0}
 --- !u!114 &4228180137851069967
 MonoBehaviour:
   m_ObjectHideFlags: 0
