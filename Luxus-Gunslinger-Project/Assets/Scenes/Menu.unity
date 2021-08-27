@@ -521,7 +521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f4c6efdde89e4e49a325d5000a7a06d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slideSpeed: 20
+  slideSpeed: 10
   camera: {fileID: 530895464}
 --- !u!82 &530895467
 AudioSource:

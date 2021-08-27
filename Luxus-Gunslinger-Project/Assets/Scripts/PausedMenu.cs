@@ -23,7 +23,9 @@ public class PausedMenu : MonoBehaviour
 
     public void Menu()
     {
-        //SceneManager.LoadScene("MenuScreen");   
+        SceneManager.LoadScene(0);
+        isPause = false;
+        Time.timeScale = 1f;
     }
 
     public void Quit()

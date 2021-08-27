@@ -8,9 +8,8 @@ public class SlideCamera : MonoBehaviour
     public float slideSpeed = 30f;
     public Transform camera;
 
-    private void Start()
+    private void Awake()
     {
-        
     }
 
 
