@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8848260133648251209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8848260133648251215}
+  - component: {fileID: 8848260133648251208}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8848260133648251215
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848260133648251209}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8008737, y: -2.9067929, z: -14.753047}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8848260133648251208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848260133648251209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6ab161bcc55775459db91786b02d92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound:
+  - name: bgMusic
+    clip: {fileID: 8300000, guid: 036109d0a9068334bbd2e747c030ae6a, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 1.2
+    loop: 1
+  - name: coinSound
+    clip: {fileID: 8300000, guid: 21762593b47d0a34993bcb6365a41fff, type: 3}
+    source: {fileID: 0}
+    volume: 0.6
+    pitch: 1.5
+    loop: 0
+  - name: gunShot
+    clip: {fileID: 8300000, guid: 401a862cdab018348a207e7ba72e1146, type: 3}
+    source: {fileID: 0}
+    volume: 0.2
+    pitch: 2
+    loop: 0
+  - name: enemyHit
+    clip: {fileID: 8300000, guid: 401a862cdab018348a207e7ba72e1146, type: 3}
+    source: {fileID: 0}
+    volume: 0.4
+    pitch: 2.5
+    loop: 0
+  - name: bonusHeal
+    clip: {fileID: 8300000, guid: c78c80df6074640429610fb21181cda9, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+  - name: levelReached
+    clip: {fileID: 8300000, guid: fdc737fcdf657bd44ba6547f846d7d4a, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 1.2
+    loop: 0
+  - name: waterSplash
+    clip: {fileID: 8300000, guid: 0c5d10aa1d98b754ebd28b3c60b4c75f, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 1.2
+    loop: 0
+  - name: deathSound
+    clip: {fileID: 8300000, guid: cb2fa3271879bf044806b4df5146bae2, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 1.2
+    loop: 0
+  - name: levelCompleteMusic
+    clip: {fileID: 8300000, guid: 68013c1f20576ec4cb4655e647ad987c, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 1.2
+    loop: 0

@@ -71,8 +71,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -964134343
   m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b7db58f10565c3f44aa31393a6b42647, type: 3}
+  m_SortingOrder: -1
+  m_Sprite: {fileID: 21300000, guid: f2b7092f79f7b944a88e3111ccb2201e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -422,7 +422,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 705913226475335926}
   bulletPrefab: {fileID: 3931145415447566676, guid: 6af6c04e47dada64da70d45ea69aedac, type: 3}
-  weaponAnimation: {fileID: 0}
+  weaponAnimation: {fileID: 1223223114409288076}
 --- !u!114 &4228180137851069967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -435,8 +435,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45ecd232236fc114d9d935accf5f8d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 200
-  healthbar: {fileID: 0}
+  maxHealth: 100
+  healthbar: {fileID: 3833876464998260128}
   playerAnimation: {fileID: 6163103914658034462}
 --- !u!1 &6163103915246312640
 GameObject:
@@ -586,3 +586,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7098571259200435414, guid: 03be1b075d98150499d737dc3266c9f7, type: 3}
   m_PrefabInstance: {fileID: 6320690640561396468}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3833876464998260128 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7098571258526156628, guid: 03be1b075d98150499d737dc3266c9f7, type: 3}
+  m_PrefabInstance: {fileID: 6320690640561396468}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35c4f8ec1636d5d40b5b2e86d6721fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
