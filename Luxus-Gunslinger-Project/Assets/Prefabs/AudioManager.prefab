@@ -98,3 +98,9 @@ MonoBehaviour:
     volume: 0.5
     pitch: 1.2
     loop: 0
+  - name: gameOverMusic
+    clip: {fileID: 8300000, guid: 6c6b4450e6f110e4cb16acd4c0a28308, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 1.2
+    loop: 0

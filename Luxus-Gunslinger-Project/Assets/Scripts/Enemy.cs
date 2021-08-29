@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
     public int damage = 20;
 
     public HealthBar healthbar;
+    public GameObject popupCoin;
 
     // Start is called before the first frame update
 
@@ -53,8 +54,11 @@ public class Enemy : MonoBehaviour
 
     void destroyEnemy()
     {
+        Instantiate(popupCoin, gameObject.transform.position, gameObject.transform.rotation);
         Destroy(gameObject);
         FindObjectOfType<GameManager>().addAmountToCoins(coinPoints);
+
+
     }
 
 

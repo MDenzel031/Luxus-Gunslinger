@@ -54,6 +54,7 @@ MonoBehaviour:
   coinPoints: 5
   damage: 10
   healthbar: {fileID: 8045419914653972828}
+  popupCoin: {fileID: 8167128394790069108, guid: 2b6c03c0530330a47a08ffb108bee517, type: 3}
 --- !u!58 &8045419915433876562
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -137,7 +138,7 @@ MonoBehaviour:
   repathRate: 0.5
   canSearch: 1
   canMove: 1
-  maxSpeed: 15
+  maxSpeed: 18
   gravity: {x: NaN, y: NaN, z: NaN}
   groundMask:
     serializedVersion: 2
@@ -146,14 +147,14 @@ MonoBehaviour:
   orientation: 1
   enableRotation: 0
   targetCompatibility: {fileID: 0}
-  maxAcceleration: -2.5
+  maxAcceleration: 18
   rotationSpeed: 360
-  slowdownDistance: 0.1
+  slowdownDistance: 0
   pickNextWaypointDist: 1.2
   endReachedDistance: 0.2
   alwaysDrawGizmos: 0
   slowWhenNotFacingTarget: 1
-  whenCloseToDestination: 1
+  whenCloseToDestination: 0
   constrainInsideGraph: 0
 --- !u!114 &8045419915433876563
 MonoBehaviour:
